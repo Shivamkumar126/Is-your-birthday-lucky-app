@@ -25,11 +25,11 @@ function compareValues(sum, luckyNumber){
 function checkBirthdayIsLucky(){
     
     var sum = calculateSum(dateOfBirth.value);
-    //if(sum){
+    if(sum){
     compareValues(sum , luckyNumber.Value)
-    //}else{
-       // outputBox.innerText="please enter values";
-    //}
+    }else{
+        outputBox.innerText="please enter values";
+    }
 }
 
 checkNumberButton.addEventListener("click", checkBirthdayIsLucky )
