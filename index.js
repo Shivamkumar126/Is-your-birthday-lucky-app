@@ -26,7 +26,7 @@ function checkBirthdayIsLucky(){
     
     var sum = calculateSum(dateOfBirth.value);
     if(sum){
-    compareValues(sum , luckyNumber.Value)
+    compareValues(sum , luckyNumber.value)
     }else{
         outputBox.innerText="please enter values";
     }
